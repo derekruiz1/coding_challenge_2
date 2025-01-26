@@ -52,6 +52,20 @@ customers.push(
     name: "Reece", 
     email: "ReecesPieces@outlook.com", 
     purchaseAmount: 150
- });
+ }); //Adding Customer to Database
 
 console.log(customers);
+
+// Task 5
+let order = {
+    orderId: 314,
+    customerName: "Reece",
+    amount: 150
+}; //Order Information
+
+let calculateTax = (order.amount * 0.1); //Calculating Tax 
+let total = (order.amount + calculateTax); //Calculating total price with tax
+
+console.log(order);
+console.log(calculateTax);
+console.log(total);
