@@ -24,6 +24,34 @@ let employee = {
 }; 
 
 employee.department = "Sales"; //Updating employee department
-employee.position = "Store Manager" //Adding employee position
+employee.position = "Store Manager"; //Adding employee position
 
 console.log(employee);
+
+//Task 4
+//Customer Database
+let customers = [{
+
+    name: "James",
+    email: "James027@gmail.com", 
+    purchaseAmount: 70,
+},
+{
+    name: "Catlin",
+    email: "Catlin417@gmail.com",
+    purchaseAmount: 85,
+},
+{   
+    name: "Ben",
+    email: "Ben10@outlook.com",
+    purchaseAmount: 450,
+}];
+
+customers.push(
+ {
+    name: "Reece", 
+    email: "ReecesPieces@outlook.com", 
+    purchaseAmount: 150
+ });
+
+console.log(customers);
